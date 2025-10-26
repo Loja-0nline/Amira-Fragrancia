@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amira Fragância - Perfumes Árabes</title>
+    <link rel="icon" type="image/png" href="fotos/WhatsApp Image 2025-10-25 at 23.05.49.jpeg">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #f5e6d3 0%, #d4a574 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #d4a574 0%, #b8935f 100%);
+            padding: 40px 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .logo-img {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto 20px;
+            display: block;
+            border-radius: 50%;
+            border: 4px solid white;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+        }
+
+        .logo {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .subtitle {
+            font-size: 24px;
+            font-style: italic;
+            opacity: 0.95;
+        }
+
+        .instagram {
+            margin-top: 15px;
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        .title {
+            text-align: center;
+            padding: 30px 20px;
+            font-size: 32px;
+            color: #6b4423;
+            border-bottom: 3px solid #d4a574;
+        }
+
+        .perfumes-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px;
+            padding: 40px 30px;
+        }
+
+        .perfume-card {
+            background: linear-gradient(135deg, #fff9f0 0%, #fef5e7 100%);
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: 2px solid #d4a574;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .perfume-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+
+        .perfume-card::after {
+            content: "Clique para entrar em contato 📱";
+            position: absolute;
+            bottom: 10px;
+            right: 15px;
+            font-size: 12px;
+            color: #25D366;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .perfume-card:hover::after {
+            opacity: 0.8;
+        }
+
+        .perfume-name {
+            font-size: 26px;
+            font-weight: bold;
+            color: #6b4423;
+            margin-bottom: 15px;
+            text-align: center;
+            border-bottom: 2px solid #d4a574;
+            padding-bottom: 10px;
+        }
+
+        .info-row {
+            margin: 15px 0;
+            padding: 10px;
+            background: white;
+            border-radius: 8px;
+        }
+
+        .info-label {
+            font-weight: bold;
+            color: #8b6435;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+
+        .info-value {
+            color: #333;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .sensation {
+            background: linear-gradient(135deg, #d4a574 0%, #b8935f 100%);
+            color: white;
+            padding: 12px;
+            border-radius: 8px;
+            text-align: center;
+            font-style: italic;
+            font-size: 17px;
+            margin-top: 15px;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+
+        @media (max-width: 768px) {
+            .perfumes-grid {
+                grid-template-columns: 1fr;
+                padding: 20px 15px;
+            }
+
+            .logo {
+                font-size: 36px;
+            }
+
+            .subtitle {
+                font-size: 20px;
+            }
+
+            .title {
+                font-size: 24px;
+                padding: 20px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="header">
+            <img src="fotos/WhatsApp Image 2025-10-25 at 23.05.49.jpeg"alt="Amira Fragância" class="logo-img" onerror="this.style.display='none'">
+            <div class="logo">Amira</div>
+            <div class="subtitle">Fragância</div>
+            <div class="instagram">@Amira_fragancia</div>
+        </div>
+
+        <div class="title">Catálogo de Perfumes - Femininos</div>
+
+        <div class="perfumes-grid">
+
+            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Eclair*%20🌹%0A%0AEstilo:%20Doce%20gourmand%0ANotas:%20Leite,%20caramelo,%20mel,%20flores%20brancas', '_blank')">
+                <div class="perfume-name">Eclair</div>
+                <div class="info-row">
+                    <div class="info-label">Estilo</div>
+                    <div class="info-value">Doce gourmand</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Notas Principais</div>
+                    <div class="info-value">Leite, caramelo, mel, flores brancas</div>
+                </div>
+                <div class="sensation">Confortável, doce</div>
+            </div>
+
+            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Durat*%20🌹%0A%0AEstilo:%20Intenso%20e%20marcante%0ANotas:%20Orquídea,%20baunilha,%20âmbar', '_blank')">
+                <div class="perfume-name">Durat</div>
+                <div class="info-row">
+                    <div class="info-label">Estilo</div>
+                    <div class="info-value">Intenso e marcante</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Notas Principais</div>
+                    <div class="info-value">Orquídea, baunilha, âmbar</div>
+                </div>
+                <div class="sensation">Sedutor, elegante</div>
+            </div>
+
+            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Afeel*%20🌹%0A%0AEstilo:%20Frutado%20picante%0ANotas:%20Pêssego,%20bergamota,%20pimenta%20rosa', '_blank')">
+                <div class="perfume-name">Afeel</div>
+                <div class="info-row">
+                    <div class="info-label">Estilo</div>
+                    <div class="info-value">Frutado picante</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Notas Principais</div>
+                    <div class="info-value">Pêssego, bergamota, pimenta rosa</div>
+                </div>
+                <div class="sensation">Afrodisíaco leve</div>
+            </div>
+
+            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Mussam*%20🌹%0A%0AEstilo:%20Floral%20amadeirado%0ANotas:%20Ilang-ilang,%20coco,%20tangerina', '_blank')">
+                <div class="perfume-name">Mussam</div>
+                <div class="info-row">
+                    <div class="info-label">Estilo</div>
+                    <div class="info-value">Floral amadeirado</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Notas Principais</div>
+                    <div class="info-value">Ilang-ilang, coco, tangerina</div>
+                </div>
+                <div class="sensation">Exótico, envolvente</div>
+            </div>
+
+            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Fakhar%20White*%20🌹%0A%0AEstilo:%20Afrodisíaco,%20frutado%0ANotas:%20Ilang-ilang,%20frutas', '_blank')">
+                <div class="perfume-name">Fakhar White</div>
+                <div class="info-row">
+                    <div class="info-label">Estilo</div>
+                    <div class="info-value">Afrodisíaco, frutado</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Notas Principais</div>
+                    <div class="info-value">Ilang-ilang, frutas</div>
+                </div>
+                <div class="sensation">"Perfume da sereia"</div>
+            </div>
+
+            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Sabah%20al%20Wader*%20🌹%0A%0AEstilo:%20Doce%20especiado%0ANotas:%20Uva,%20cacau,%20pimenta%20rosa,%20baunilha', '_blank')">
+                <div class="perfume-name">Sabah al Wader</div>
+                <div class="info-row">
+                    <div class="info-label">Estilo</div>
+                    <div class="info-value">Doce especiado</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Notas Principais</div>
+                    <div class="info-value">Uva, cacau, pimenta rosa, baunilha</div>
+                </div>
+                <div class="sensation">"Perfume do ciúmes"</div>
+            </div>
+
+            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Yara%20Moi*%20🌹%0A%0AEstilo:%20Doce%20quente%20e%20cremoso%0ANotas:%20Caramelo,%20pêssego,%20amadeirado', '_blank')">
+                <div class="perfume-name">Yara Moi</div>
+                <div class="info-row">
+                    <div class="info-label">Estilo</div>
+                    <div class="info-value">Doce quente e cremoso</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Notas Principais</div>
+                    <div class="info-value">Caramelo, pêssego, amadeirado</div>
+                </div>
+                <div class="sensation">Sexy, aconchegante</div>
+            </div>
+
+            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Yara%20Rosa*%20🌹%0A%0AEstilo:%20Doce%20delicado%0ANotas:%20Baunilha,%20morango', '_blank')">
+                <div class="perfume-name">Yara Rosa</div>
+                <div class="info-row">
+                    <div class="info-label">Estilo</div>
+                    <div class="info-value">Doce delicado</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Notas Principais</div>
+                    <div class="info-value">Baunilha, morango</div>
+                </div>
+                <div class="sensation">Romântico, leve</div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
