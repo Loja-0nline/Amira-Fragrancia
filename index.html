@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amira Fragância - Perfumes Árabes</title>
-    <link rel="icon" type="image/png" href="fotos/WhatsApp Image 2025-10-25 at 23.05.49.jpeg">
+    <link rel="icon" type="image/jpeg" href="fotos/logo.jpeg">
     <style>
         * {
             margin: 0;
@@ -95,6 +95,28 @@
             box-shadow: 0 10px 25px rgba(0,0,0,0.15);
         }
 
+        .perfume-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            border: 3px solid #d4a574;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .description {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+            color: #555;
+            font-size: 15px;
+            line-height: 1.7;
+            font-style: italic;
+            border-left: 4px solid #d4a574;
+        }
+
         .perfume-card::after {
             content: "Clique para entrar em contato 📱";
             position: absolute;
@@ -180,118 +202,161 @@
     <div class="container">
 
         <div class="header">
-            <img src="fotos/WhatsApp Image 2025-10-25 at 23.05.49.jpeg"alt="Amira Fragância" class="logo-img" onerror="this.style.display='none'">
+            <img src="fotos/logo.jpeg" alt="Amira Fragância" class="logo-img" onerror="this.style.display='none'">
             <div class="logo">Amira</div>
             <div class="subtitle">Fragância</div>
             <div class="instagram">@Amira_fragancia</div>
         </div>
 
-        <div class="title">Catálogo de Perfumes - Femininos</div>
+        <div class="title">Catálogo de Perfumes</div>
 
         <div class="perfumes-grid">
 
-            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Eclair*%20🌹%0A%0AEstilo:%20Doce%20gourmand%0ANotas:%20Leite,%20caramelo,%20mel,%20flores%20brancas', '_blank')">
-                <div class="perfume-name">Eclair</div>
-                <div class="info-row">
-                    <div class="info-label">Estilo</div>
-                    <div class="info-value">Doce gourmand</div>
-                </div>
-                <div class="info-row">
-                    <div class="info-label">Notas Principais</div>
-                    <div class="info-value">Leite, caramelo, mel, flores brancas</div>
-                </div>
-                <div class="sensation">Confortável, doce</div>
+            <!-- Asad Preto -->
+            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Asad%20Preto*%20🌹', '_blank')">
+                <img src="fotos/perfumes/Asad Preto.jpeg" alt="Asad Preto" class="perfume-image">
+                <div class="perfume-name">Asad Preto</div>
+                <div class="description">Cheiro marcante e intenso, com um toque de mistério e sofisticação.</div>
             </div>
 
-            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Durat*%20🌹%0A%0AEstilo:%20Intenso%20e%20marcante%0ANotas:%20Orquídea,%20baunilha,%20âmbar', '_blank')">
-                <div class="perfume-name">Durat</div>
-                <div class="info-row">
-                    <div class="info-label">Estilo</div>
-                    <div class="info-value">Intenso e marcante</div>
-                </div>
-                <div class="info-row">
-                    <div class="info-label">Notas Principais</div>
-                    <div class="info-value">Orquídea, baunilha, âmbar</div>
-                </div>
-                <div class="sensation">Sedutor, elegante</div>
+            <!-- Fakhar Black -->
+            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Fakhar%20Black*%20🌹', '_blank')">
+                <img src="fotos/perfumes/Fakhar Black.jpeg" alt="Fakhar Black" class="perfume-image">
+                <div class="perfume-name">Fakhar Black</div>
+                <div class="description">Fragrância elegante e poderosa, perfeita para quem gosta de presença e atitude.</div>
             </div>
 
-            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Afeel*%20🌹%0A%0AEstilo:%20Frutado%20picante%0ANotas:%20Pêssego,%20bergamota,%20pimenta%20rosa', '_blank')">
-                <div class="perfume-name">Afeel</div>
-                <div class="info-row">
-                    <div class="info-label">Estilo</div>
-                    <div class="info-value">Frutado picante</div>
-                </div>
-                <div class="info-row">
-                    <div class="info-label">Notas Principais</div>
-                    <div class="info-value">Pêssego, bergamota, pimenta rosa</div>
-                </div>
-                <div class="sensation">Afrodisíaco leve</div>
+            <!-- Asad Bourbon -->
+            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Asad%20Bourbon*%20🌹', '_blank')">
+                <img src="fotos/perfumes/Asad Bourbon.jpeg" alt="Asad Bourbon" class="perfume-image">
+                <div class="perfume-name">Asad Bourbon</div>
+                <div class="description">Notas quentes e amadeiradas, com um aroma envolvente e refinado.</div>
             </div>
 
-            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Mussam*%20🌹%0A%0AEstilo:%20Floral%20amadeirado%0ANotas:%20Ilang-ilang,%20coco,%20tangerina', '_blank')">
-                <div class="perfume-name">Mussam</div>
-                <div class="info-row">
-                    <div class="info-label">Estilo</div>
-                    <div class="info-value">Floral amadeirado</div>
-                </div>
-                <div class="info-row">
-                    <div class="info-label">Notas Principais</div>
-                    <div class="info-value">Ilang-ilang, coco, tangerina</div>
-                </div>
-                <div class="sensation">Exótico, envolvente</div>
+            <!-- Bade'e Al Oud -->
+            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Bade%20Al%20Oud*%20🌹', '_blank')">
+                <img src="fotos/perfumes/badee-oud.jpeg" alt="Bade'e Al Oud" class="perfume-image">
+                <div class="perfume-name">Bade'e Al Oud</div>
+                <div class="description">Clássico oriental com toque de oud, exótico e duradouro.</div>
             </div>
 
-            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Fakhar%20White*%20🌹%0A%0AEstilo:%20Afrodisíaco,%20frutado%0ANotas:%20Ilang-ilang,%20frutas', '_blank')">
-                <div class="perfume-name">Fakhar White</div>
-                <div class="info-row">
-                    <div class="info-label">Estilo</div>
-                    <div class="info-value">Afrodisíaco, frutado</div>
-                </div>
-                <div class="info-row">
-                    <div class="info-label">Notas Principais</div>
-                    <div class="info-value">Ilang-ilang, frutas</div>
-                </div>
-                <div class="sensation">"Perfume da sereia"</div>
+            <!-- Bade'e Al Oud Pink -->
+            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Bade%20Al%20Oud%20Pink*%20🌹', '_blank')">
+                <img src="fotos/perfumes/badee-oud-pink.jpeg" alt="Bade'e Al Oud Pink" class="perfume-image">
+                <div class="perfume-name">Bade'e Al Oud Pink</div>
+                <div class="description">Versão rosada do clássico oriental com toque de oud, exótico, duradouro e com notas florais delicadas.</div>
             </div>
 
-            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Sabah%20al%20Wader*%20🌹%0A%0AEstilo:%20Doce%20especiado%0ANotas:%20Uva,%20cacau,%20pimenta%20rosa,%20baunilha', '_blank')">
-                <div class="perfume-name">Sabah al Wader</div>
-                <div class="info-row">
-                    <div class="info-label">Estilo</div>
-                    <div class="info-value">Doce especiado</div>
-                </div>
-                <div class="info-row">
-                    <div class="info-label">Notas Principais</div>
-                    <div class="info-value">Uva, cacau, pimenta rosa, baunilha</div>
-                </div>
-                <div class="sensation">"Perfume do ciúmes"</div>
+            <!-- Fakhar Platin -->
+            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Fakhar%20Platin*%20🌹', '_blank')">
+                <img src="fotos/perfumes/Fakhar Platin.jpeg" alt="Fakhar Platin" class="perfume-image">
+                <div class="perfume-name">Fakhar Platin</div>
+                <div class="description">Cheiro luxuoso e sofisticado, equilibrando frescor e intensidade.</div>
             </div>
 
-            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Yara%20Moi*%20🌹%0A%0AEstilo:%20Doce%20quente%20e%20cremoso%0ANotas:%20Caramelo,%20pêssego,%20amadeirado', '_blank')">
-                <div class="perfume-name">Yara Moi</div>
-                <div class="info-row">
-                    <div class="info-label">Estilo</div>
-                    <div class="info-value">Doce quente e cremoso</div>
-                </div>
-                <div class="info-row">
-                    <div class="info-label">Notas Principais</div>
-                    <div class="info-value">Caramelo, pêssego, amadeirado</div>
-                </div>
-                <div class="sensation">Sexy, aconchegante</div>
+            <!-- Shaheen Silver -->
+            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Shaheen%20Silver*%20🌹', '_blank')">
+                <img src="fotos/perfumes/Shahen Silver.jpeg" alt="Shaheen Silver" class="perfume-image">
+                <div class="perfume-name">Shaheen Silver</div>
+                <div class="description">Fragrância leve e elegante, ideal para o dia a dia ou ocasiões especiais.</div>
             </div>
 
-            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Yara%20Rosa*%20🌹%0A%0AEstilo:%20Doce%20delicado%0ANotas:%20Baunilha,%20morango', '_blank')">
-                <div class="perfume-name">Yara Rosa</div>
-                <div class="info-row">
-                    <div class="info-label">Estilo</div>
-                    <div class="info-value">Doce delicado</div>
-                </div>
-                <div class="info-row">
-                    <div class="info-label">Notas Principais</div>
-                    <div class="info-value">Baunilha, morango</div>
-                </div>
-                <div class="sensation">Romântico, leve</div>
+            <!-- Asad Elixir -->
+            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Asad%20Elixir*%20🌹', '_blank')">
+                <img src="fotos/perfumes/Asad Elixir.jpeg" alt="Asad Elixir" class="perfume-image">
+                <div class="perfume-name">Asad Elixir</div>
+                <div class="description">Perfume envolvente e misterioso, com aroma profundo e cativante.</div>
+            </div>
+
+            <!-- Afeef -->
+            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Afeef*%20🌹', '_blank')">
+                <img src="fotos/perfumes/Afeef.jpeg" alt="Afeef" class="perfume-image">
+                <div class="perfume-name">Afeef</div>
+                <div class="description">Delicado e moderno, com toque de frutas e flores suaves.</div>
+            </div>
+
+            <!-- Yara Branco -->
+            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Yara%20Branco*%20🌹', '_blank')">
+                <img src="fotos/perfumes/Yara Branco.jpeg" alt="Yara Branco" class="perfume-image">
+                <div class="perfume-name">Yara Branco</div>
+                <div class="description">Cheiro fresco e floral, leve e elegante para qualquer momento.</div>
+            </div>
+
+            <!-- Fakhar Rose -->
+            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Fakhar%20Rose*%20🌹', '_blank')">
+                <img src="fotos/perfumes/Fakhar Rose.jpeg" alt="Fakhar Rose" class="perfume-image">
+                <div class="perfume-name">Fakhar Rose</div>
+                <div class="description">Rosa intensa com toque de especiarias suaves, sofisticada e levemente adocicada, deixando uma presença elegante e envolvente.</div>
+            </div>
+
+            <!-- Yara -->
+            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Yara*%20🌹', '_blank')">
+                <img src="fotos/perfumes/Yara.jpeg" alt="Yara" class="perfume-image">
+                <div class="perfume-name">Yara</div>
+                <div class="description">Fragrância versátil, floral frutada, doce na medida certa.</div>
+            </div>
+
+            <!-- Eclaire -->
+            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Eclaire*%20🌹', '_blank')">
+                <img src="fotos/perfumes/Eclair.jpeg" alt="Eclaire" class="perfume-image">
+                <div class="perfume-name">Eclaire</div>
+                <div class="description">Doce e cremoso, lembra uma sobremesa elegante na pele.</div>
+            </div>
+
+            <!-- Yara Tous -->
+            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Yara%20Tous*%20🌹', '_blank')">
+                <img src="fotos/perfumes/Yara Tous.jpeg" alt="Yara Tous" class="perfume-image">
+                <div class="perfume-name">Yara Tous</div>
+                <div class="description">Fragrância feminina e delicada, com notas frutadas de maçã e pêssego, perfeita para uso diário.</div>
+            </div>
+
+            <!-- Mayar Cherry -->
+            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Mayar%20Cherry*%20🌹', '_blank')">
+                <img src="fotos/perfumes/Mayar Cherry.jpeg" alt="Mayar Cherry" class="perfume-image">
+                <div class="perfume-name">Mayar Cherry</div>
+                <div class="description">Doce e frutada, com aroma vibrante e alegre.</div>
+            </div>
+
+            <!-- Mayar Pink -->
+            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Mayar%20Pink*%20🌹', '_blank')">
+                <img src="fotos/perfumes/Mayar Pink.jpeg" alt="Mayar Pink" class="perfume-image">
+                <div class="perfume-name">Mayar Pink</div>
+                <div class="description">Frutada e delicada, com notas de frutas vermelhas e pêssego, equilibradas por um toque suave floral, perfeita para um aroma romântico e feminino.</div>
+            </div>
+
+            <!-- Yara Candy -->
+            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Yara%20Candy*%20🌹', '_blank')">
+                <img src="fotos/perfumes/Yara Candy.jpeg" alt="Yara Candy" class="perfume-image">
+                <div class="perfume-name">Yara Candy</div>
+                <div class="description">Doce e alegre, com notas frutadas de frutas vermelhas e toque de caramelo, trazendo uma sensação divertida e envolvente.</div>
+            </div>
+
+            <!-- Tharwah Silver -->
+            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Tharwah%20Silver*%20🌹', '_blank')">
+                <img src="fotos/perfumes/Tharwah Silver.jpeg" alt="Tharwah Silver" class="perfume-image">
+                <div class="perfume-name">Tharwah Silver</div>
+                <div class="description">Fragrância elegante e suave, com notas cítricas frescas e toque amadeirado, perfeita para transmitir modernidade e sofisticação.</div>
+            </div>
+
+            <!-- Tharwah Gold -->
+            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Tharwah%20Gold*%20🌹', '_blank')">
+                <img src="fotos/perfumes/Tharwah Gold.jpeg" alt="Tharwah Gold" class="perfume-image">
+                <div class="perfume-name">Tharwah Gold</div>
+                <div class="description">Cheiro luxuoso e envolvente, com notas quentes de âmbar e baunilha, combinado com um leve toque floral, ideal para destacar sua presença.</div>
+            </div>
+
+            <!-- Durrat Al Aroos -->
+            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Durrat%20Al%20Aroos*%20🌹', '_blank')">
+                <img src="fotos/perfumes/Durrat Al Aroos.jpeg" alt="Durrat Al Aroos" class="perfume-image">
+                <div class="perfume-name">Durrat Al Aroos</div>
+                <div class="description">Doce e marcante, com notas florais de jasmim e rosa, envolvidas por um fundo suave de baunilha, criando uma presença sensual e elegante.</div>
+            </div>
+
+            <!-- Attar Al Wesal -->
+            <div class="perfume-card" onclick="window.open('https://wa.me/5511964716345?text=Olá!%20Tenho%20interesse%20no%20perfume%20*Attar%20Al%20Wesal*%20🌹', '_blank')">
+                <img src="fotos/perfumes/Attar Al Wesal.jpeg" alt="Attar Al Wesal" class="perfume-image">
+                <div class="perfume-name">Attar Al Wesal</div>
+                <div class="description">Clássico oriental intenso, com notas de oud, especiarias e madeira, duradouro e sofisticado, perfeito para quem gosta de fragrâncias marcantes.</div>
             </div>
 
         </div>
